@@ -92,14 +92,3 @@ st.markdown("---")
 if st.checkbox('전체 지질공원 데이터 보기'):
     st.subheader("전체 국가지질공원 목록")
     st.dataframe(df)
-
-# 앱 실행 방법
-st.markdown(
-    """
-    <br>
-    **실행 방법:**
-    터미널에서 다음 명령어를 입력하세요:
-    `streamlit run app.py`
-    """, 
-    unsafe_allow_html=True
-)
